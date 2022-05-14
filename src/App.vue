@@ -1,11 +1,11 @@
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
+  import Search from './pages/Search.vue';
+  import DocInfo from './pages/DocInfo.vue';
+  import Appointment from './pages/Appointment.vue';
 </script>
 
 <template>
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <DocInfo/>
 </template>
 
 <style>
